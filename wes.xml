@@ -18,6 +18,11 @@
               <block type="movement_left" id="179">
                 <next>
                   <block type="robot_delay" id="308" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="341">
+                        <field name="NUM">3000</field>
+                      </block>
+                    </value>
                     <next>
                       <block type="movement_left" id="299">
                         <next>
